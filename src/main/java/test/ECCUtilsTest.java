@@ -1,10 +1,10 @@
-package example;
+package test;
 
 import crypto.ECCUtils;
 
 import java.security.*;
 
-public class ECCExample {
+class ECCUtilsTest {
     private static void doTest1(PrivateKey privateKey, String encrypted) throws Exception {
         System.out.println(encrypted);
         String decrypted = ECCUtils.decrypt(privateKey, encrypted);

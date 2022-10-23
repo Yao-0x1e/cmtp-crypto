@@ -1,4 +1,4 @@
-package example;
+package test;
 
 import crypto.AESUtils;
 
@@ -9,7 +9,7 @@ import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 
-public class AESExample {
+class AESUtilsTest {
     public static void main(String[] args) throws InvalidAlgorithmParameterException, NoSuchPaddingException, IllegalBlockSizeException, NoSuchAlgorithmException, BadPaddingException, InvalidKeyException {
         String str = "HelloWorld";
         String key = "TestKey";

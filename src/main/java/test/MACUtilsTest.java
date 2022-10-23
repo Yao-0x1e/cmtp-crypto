@@ -1,10 +1,10 @@
-package example;
+package test;
 
 import crypto.MACUtils;
 
 import java.util.Arrays;
 
-public class MACExample {
+class MACUtilsTest {
     public static void main(String[] args) throws Exception {
         String str = "HelloWorld";
         byte[] key = "TestKey".getBytes();

@@ -1,10 +1,10 @@
-package example;
+package test;
 
 import crypto.SHAUtils;
 
 import java.util.Arrays;
 
-public class SHAExample {
+class SHAUtilsTest {
     public static void main(String[] args) {
         String str = "HelloWorld";
         for (int i = 0; i < 10; i++) {

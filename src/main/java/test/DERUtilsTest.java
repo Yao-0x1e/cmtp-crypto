@@ -1,4 +1,4 @@
-package example;
+package test;
 
 import crypto.DERUtils;
 import crypto.ECCUtils;
@@ -8,7 +8,7 @@ import java.security.*;
 import java.security.spec.InvalidKeySpecException;
 import java.util.Arrays;
 
-public class DERExample {
+class DERUtilsTest {
     private static void doTest(KeyPair keyPair) throws NoSuchAlgorithmException, InvalidKeySpecException, NoSuchProviderException {
         byte[] privateKeyDER = DERUtils.convertPrivateKeyToDER(keyPair.getPrivate());
         byte[] publicKeyDER = DERUtils.convertPublicKeyToDER(keyPair.getPublic());

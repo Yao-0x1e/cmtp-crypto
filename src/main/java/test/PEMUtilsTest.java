@@ -1,11 +1,11 @@
-package example;
+package test;
 
 import crypto.PEMUtils;
 
 import java.security.PrivateKey;
 import java.security.PublicKey;
 
-public class PEMExample {
+class PEMUtilsTest {
     private static void doTest(String publicKeyPEM, String privateKeyPEM) throws Exception {
         // 将PEM转换为密钥
         PublicKey publicKey = PEMUtils.convertPEMToPublicKey(publicKeyPEM);
